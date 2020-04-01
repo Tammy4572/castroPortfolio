@@ -71,7 +71,9 @@ px      68    160    252    */
 	.dream-flex-item:nth-child(4) {
 		clear: left;
 	}
-
+     .container{
+          width: 90%;
+     }
 	.address-info {
 		padding-top: 20px;
 	}
@@ -105,4 +107,5 @@ px      68    160    252    344    436    */
 	.dream-flex-item:nth-child(4) {
 		clear: left;
 	}
+
 }
