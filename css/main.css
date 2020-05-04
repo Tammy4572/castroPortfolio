@@ -179,7 +179,7 @@ hr {
 }
 .img-fluid {
      max-width: 90%;
-     border-radius: 10px;
+     border: .5px solid #e3e3e3;
 }
 
 /*----------   EDUCATION   ----------*/
@@ -254,6 +254,7 @@ hr {
     background-color: #435468;
     color: #ffffff;
 	text-align: center;
+     padding-top: 20px;
 }
 .contact-title {
     text-align: center;
@@ -285,42 +286,36 @@ hr {
 }
 
 /*----------   DREAM CSS   ----------*/
-#dream-wrapper {
-    margin: 20px 20px;
-    border: 1px solid #e3e3e3;
+.btn-pull-up{
+     position: relative;
+     bottom: 20px;
+     right: -10px;
+     padding-top: 20px;
+}
+.btn-primary {
+     background-color: #435468;
+     font-size: 18px;
+    padding: 15px 20px;
+    border: 0 none;
+    line-height: 20px;
     text-align: left;
+    color: #fff!important;
 }
-#dream-header {
-	background-image: url('../images/dream-assets/slider-background.png');
-	height: auto;
-	width: 100%;
-	text-align: center;
-	padding-bottom: 3px;
+.wrapper-sidebar{
+     background-color: #f5f6f7;
 }
-#dream-grid {
-	width: 100%;
-	margin: 0 auto;
+#dream-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.nevo-slider {
-	margin: 0 auto;
-	width: 70%;
+.blog-content {
+     margin: 20px auto;
 }
-.dream-navbar {
-	background-color: #292929;
-	background-image: url(../images/dream-assets/top_header.png);
-}
-.dream-navbar ul {
-	margin: 0; padding: 0; white-space: nowrap;
-}
-.dream-link {
-	border-right: .5px solid #3D3939;
-	font-size: 10px;
-}
-.dream-link a {
-	color: #ffffff;
-}
-.dream-link a:hover {
-	background-color: #739467;
+.btn-pull-up{
+     position: relative;
+    bottom: 20px;
+    right: -10px;
+    padding-top: 20px;
 }
 .form {
 	background-color: #f2f2f2;
@@ -348,81 +343,11 @@ hr {
 	padding: 5px;
 	margin-right: 10px;
 }
-.dream-title {
-	color: #739467;
-	font-size: 20px;
-	font-weight: bold;
-}
-.dream-description-title {
-	font-size: 18px;
-	font-weight: 500;
-	color: #739467;
-}
-.dream-subtitle {
-	font-size: 16px;
-	font-weight: 500;
-	color: #739467;
-	text-align: center;
-	flex-flow: column wrap;
-}
-#dream-footer {
-	background-color: #414A59;
-	padding: 0 10px;
-}
-#dream-footer ul {
-    color: #c4cad4;
-	display: inline-flex;
-}
-#dream-footer p {
-	color:#c4cad4;
-	font-size: 12px;
-	padding-left: 15px;
-}
-.dream-footer-title {
-	color: #ffffff;
-}
-.affiliations-list {
-	list-style-type: none;
-	padding-left: 10px;
-	flex-direction:column;
-	text-align: left;
-}
-.affiliations-list li {
-		color: #739467;
-}
-.social-profile {
-	margin-left: -20px;
-
-}
-
-.dream-icon {
-    margin: 0 10px 0 0;
-	padding: 0 0px 0 0;
-	text-decoration: none;
-	  color: #435468;
-	  background-color: #ffffff;
-	  height: 20px;
-	  text-align: center;
-	  width: 20px;
-	  font-size: 10px;
-	  line-height: 20px;
-	  overflow: hidden;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-	border-radius: 50%;
-  text-shadow: #ffffff 1px 1px, #ffffff 2px 2px, #ffffff 3px 3px, #ffffff 4px 4px, #ffffff 5px 5px, #ffffff 6px 6px, #ffffff 7px 7px, #ffffff 8px 8px, #ffffff 9px 9px, #ffffff 10px 10px, #ffffff 11px 11px, #ffffff 12px 12px, #ffffff 13px 13px, #ffffff 14px 14px, #ffffff 15px 15px, #ffffff 16px 16px, #ffffff 17px 17px, #ffffff 18px 18px, #ffffff 19px 19px, #ffffff 20px 20px, #ffffff 21px 21px, #ffffff 22px 22px, #ffffff 23px 23px, #ffffff 24px 24px, #ffffff 25px 25px, #ffffff 26px 26px, #ffffff 27px 27px, #ffffff 28px 28px, #ffffff 29px 29px, #ffffff 30px 30px, #ffffff 31px 31px, #ffffff 32px 32px, #ffffff 33px 33px, #ffffff 34px 34px, #ffffff 35px 35px, #ffffff 36px 36px, #ffffff 37px 37px, #ffffff 38px 38px, #ffffff 39px 39px, #ffffff 40px 40px, #ffffff 41px 41px, #ffffff 42px 42px, #ffffff 43px 43px, #ffffff 44px 44px, #ffffff 45px 45px, #ffffff 46px 46px, #ffffff 47px 47px, #ffffff 48px 48px, #ffffff 49px 49px, #ffffff 50px 50px;
-}
-.address-info {
-	line-height: .5;
-	padding-bottom: 5px;
-}
-.profile-img {
-    display: table;
-}
 
 /*----------   DESIGN CSS   ----------*/
 .design{
 
+}
+.services-list{
+     list-style: none;
 }
